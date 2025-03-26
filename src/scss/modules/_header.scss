@@ -1,12 +1,30 @@
 .header-title {
   color: var(--yellow);
+  display: flex;
+  height: 100vh;
+  align-items: center;
   text-align: center;
+  justify-content: stretch;
   font-family: "Miller Banner";
   font-size: 215px;
   font-style: italic;
   font-weight: 600;
-  padding-top: 200px;
-  background-image: url("../img/stars/star-big-red-header.png");
-  background-size: 100%;
-  background-position: 5%;
+}
+
+@media (min-width: 300px) and (max-width: 575px) {
+  .header-title {
+    font-size: 91px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .header-title {
+    font-size: 139px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .header-title {
+    font-size: 188px;
+  }
 }
