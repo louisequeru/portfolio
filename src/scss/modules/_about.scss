@@ -1,6 +1,22 @@
+.about {
+  background-image: url("../img/stars/pattern-about.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .about-text {
   color: var(--yellow);
   font-family: Outfit;
   font-size: 18px;
   font-weight: 400;
+}
+
+.about-text.about-text-1 {
+  margin-top: 104px;
+}
+
+.about-text.about-text-2 {
+  margin-top: 367px;
+  margin-bottom: 285;
 }
