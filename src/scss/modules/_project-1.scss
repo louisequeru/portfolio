@@ -1,0 +1,63 @@
+.project-1-arrow-home {
+  margin-bottom: 23px;
+}
+
+.project-1-title {
+  color: var(--orange);
+  font-family: "Miller Banner";
+  font-size: 96px;
+  font-style: italic;
+  font-weight: 300;
+  margin-bottom: 19px;
+}
+
+.project-1-description-1 {
+  color: var(--white);
+  font-weight: 400;
+  margin-bottom: 172px;
+}
+
+.project-1-image-2 {
+  margin-top: -190px;
+  margin-bottom: 125px;
+}
+
+.project-1-image-3 {
+  width: 75%;
+  margin-bottom: 33px;
+}
+
+.project-1-description-2 {
+  color: var(--white);
+  font-weight: 400;
+  margin-top: -600px;
+}
+
+.project-1-next {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-1-next-arrow {
+  width: 70%;
+}
+
+.project-1-next-left {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.project-1-next-right {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-end;
+}
+
+.project-1-next-text {
+  color: var(--orange);
+  font-family: "Miller Banner";
+  font-weight: 300;
+}

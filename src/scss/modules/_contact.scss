@@ -1,8 +1,16 @@
+.contact-stars {
+  background-image: url("../img/stars/pattern-contact.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .contact {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 25px;
+  height: 100vh;
 }
 
 .contact-title {
@@ -11,6 +19,18 @@
   font-size: 96px;
   font-style: italic;
   font-weight: 300;
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+  .contact-title {
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 575px) {
+  .contact-title {
+    font-size: 49px;
+  }
 }
 
 .contact-infos {
