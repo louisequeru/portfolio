@@ -48,3 +48,12 @@
   font-size: 18px;
   font-weight: 400;
 }
+
+.contact-info-text {
+  transition: transform;
+  transition-duration: 0.2s;
+}
+
+.contact-info-text:hover {
+  transform: translateY(-5px);
+}

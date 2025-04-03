@@ -1,8 +1,19 @@
-.project-1-arrow-home {
-  margin-bottom: 23px;
+.project-gd-1 {
+  background-image: url("../img/stars/star-big-orange-gd-project-1.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.project-1-title {
+.project-gd-1-arrow-home {
+  margin-bottom: 23px;
+  transition: transform 0.3s ease-out;
+}
+
+.project-gd-1-arrow-home:hover {
+  transform: scale(1.2);
+}
+
+.project-gd-1-title {
   color: var(--orange);
   font-family: "Miller Banner";
   font-size: 96px;
@@ -11,52 +22,57 @@
   margin-bottom: 19px;
 }
 
-.project-1-description-1 {
+.project-gd-1-description-1 {
   color: var(--white);
   font-weight: 400;
   margin-bottom: 172px;
 }
 
-.project-1-image-2 {
+.project-gd-1-image-2 {
   margin-top: -190px;
   margin-bottom: 125px;
+  box-shadow: -5px -5px 40px 0px var(--black);
 }
 
-.project-1-image-3 {
+.project-gd-1-image-3 {
   width: 75%;
   margin-bottom: 33px;
 }
 
-.project-1-description-2 {
+.project-gd-1-description-2 {
   color: var(--white);
   font-weight: 400;
   margin-top: -600px;
 }
 
-.project-1-next {
+.project-gd-1-next {
   display: flex;
   justify-content: space-between;
 }
 
-.project-1-next-arrow {
-  width: 70%;
+.project-gd-1-next-arrow {
+  transition: transform 0.3s ease-out;
 }
 
-.project-1-next-left {
+.project-gd-1-next-arrow:hover {
+  transform: scale(1.2);
+}
+
+.project-gd-1-next-left {
   display: flex;
   flex-direction: column;
   gap: 16px;
   align-items: flex-start;
 }
 
-.project-1-next-right {
+.project-gd-1-next-right {
   display: flex;
   flex-direction: column;
   gap: 16px;
   align-items: flex-end;
 }
 
-.project-1-next-text {
+.project-gd-1-next-text {
   color: var(--orange);
   font-family: "Miller Banner";
   font-weight: 300;

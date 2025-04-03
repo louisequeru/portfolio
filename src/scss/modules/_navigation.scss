@@ -7,3 +7,42 @@
   font-size: 18px;
   font-weight: 300;
 }
+
+.navigation-text {
+  transition-property: transform;
+  transition-duration: 0.2s;
+}
+
+.navigation-text:hover {
+  transform: translateY(-5px);
+}
+
+.navigation-text-gd {
+  transition-property: transform, color;
+  transition-duration: 0.2s, 0.7s;
+}
+
+.navigation-text-gd:hover {
+  transform: translateY(-5px);
+  color: var(--orange);
+}
+
+.navigation-text-md {
+  transition-property: transform, color;
+  transition-duration: 0.2s, 0.7s;
+}
+
+.navigation-text-md:hover {
+  transform: translateY(-5px);
+  color: var(--yellow);
+}
+
+.navigation-text-ph {
+  transition-property: transform, color;
+  transition-duration: 0.2s, 0.7s;
+}
+
+.navigation-text-ph:hover {
+  transform: translateY(-5px);
+  color: var(--blue);
+}

@@ -18,7 +18,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <p class="header-title">LOUISE QUÉRU</p>
+          <p id="home" class="header-title">LOUISE QUÉRU</p>
         </div>
       </div>
     </div>
@@ -27,12 +27,16 @@
       <div class="row">
         <div class="col-12">
           <div class="navigation">
-            <p class="navigation-text">Accueil</p>
-            <p class="navigation-text">À propos</p>
-            <p class="navigation-text">Graphic design</p>
-            <p class="navigation-text">Motion design</p>
-            <p class="navigation-text">Photography</p>
-            <p class="navigation-text">Contact</p>
+            <a class="navigation-text" href="#home">Accueil</a>
+            <a class="navigation-text" href="#about">À propos</a>
+            <a class="navigation-text-gd" href="#graphic-design"
+              >Graphic design</a
+            >
+            <a class="navigation-text-md" href="#motion-design"
+              >Motion design</a
+            >
+            <a class="navigation-text-ph" href="#photography">Photography</a>
+            <a class="navigation-text" href="#contact">Contact</a>
           </div>
         </div>
       </div>
@@ -42,7 +46,7 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-12 col-md-6">
-            <p class="about-text about-text-1">
+            <p id="about" class="about-text about-text-1">
               Et quia Montius inter dilancinantium manus spiritum efflaturus
               Epigonum et Eusebium nec professionem nec dignitatem ostendens
               aliquotiens increpabat, qui sint hi magna quaerebatur industria,
@@ -83,7 +87,7 @@
     <div class="container">
       <div class="row domain-1">
         <div class="col-xs-12 col-md-7">
-          <p class="domain-1-title">Graphic Design</p>
+          <p id="graphic-design" class="domain-1-title">Graphic Design</p>
         </div>
         <div class="col-xs-12 col-md-7">
           <p class="domain-1-text">
@@ -103,22 +107,29 @@
       </div>
     </div>
 
-    <a href="project-gd-1.html">Projet</a>
+    <a class="projects-gd" href="project-gd-1.html">Projet</a>
 
     <div class="contact-stars">
       <div class="container">
         <div class="row">
           <div class="col-4 offset-4">
             <div class="contact">
-              <p class="contact-title">Contact</p>
+              <p id="contact" class="contact-title">Contact</p>
               <div class="contact-infos">
                 <div class="contact-info">
                   <img src="img/vectors/instagram.svg" alt="instagram" />
-                  <a href="https://www.instagram.com/lou_kos_/">@lou_kos_</a>
+                  <a
+                    class="contact-info-text"
+                    href="https://www.instagram.com/lou_kos_/"
+                    target="_blank"
+                    >@lou_kos_</a
+                  >
                 </div>
                 <div class="contact-info">
                   <img src="img/vectors/mail.svg" alt="mail" />
-                  <a href="mailto:louise.queru@student.fr"
+                  <a
+                    class="contact-info-text"
+                    href="mailto:louise.queru@student.fr"
                     >louise.queru@studentfr.ch</a
                   >
                 </div>
