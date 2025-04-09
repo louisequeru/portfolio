@@ -45,6 +45,13 @@
   margin-top: -600px;
 }
 
+@media (min-width: 300px) and (max-width: 991px) {
+  .project-gd-1-description-2 {
+    margin-top: 20px;
+    margin-bottom: 80px;
+  }
+}
+
 .project-gd-1-next {
   display: flex;
   justify-content: space-between;

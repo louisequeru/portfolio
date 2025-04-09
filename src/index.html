@@ -14,56 +14,41 @@
     />
   </head>
   <body>
-    <div class="star"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <p id="home" class="header-title">LOUISE QUÉRU</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="navigation">
-            <a class="navigation-text" href="#home">Accueil</a>
-            <a class="navigation-text" href="#about">À propos</a>
-            <a class="navigation-text-gd" href="#graphic-design"
-              >Graphic design</a
-            >
-            <a class="navigation-text-md" href="#motion-design"
-              >Motion design</a
-            >
-            <a class="navigation-text-ph" href="#photography">Photography</a>
-            <a class="navigation-text" href="#contact">Contact</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="about">
+    
+    <div class="section">
+      <div class="star"></div>
       <div class="container">
         <div class="row">
-          <div class="col-xs-12 col-md-6">
-            <p id="about" class="about-text about-text-1">
-              Et quia Montius inter dilancinantium manus spiritum efflaturus
-              Epigonum et Eusebium nec professionem nec dignitatem ostendens
-              aliquotiens increpabat, qui sint hi magna quaerebatur industria,
-              et nequid intepesceret, Epigonus e Lycia philosophus ducitur et
-              Eusebius ab Emissa Pittacas cognomento, concitatus orator, cum
-              quaestor non hos sed tribunos fabricarum insimulasset promittentes
-              armorum si novas res agitari conperissent. Oportunum est, ut
-              arbitror, explanare nunc causam, quae ad exitium praecipitem
-              Aginatium inpulit iam inde a priscis maioribus nobilem, ut locuta
-              est pertinacior fama. nec enim super hoc ulla documentorum rata
-              est fides.
-            </p>
+          <div class="col-12">
+            <p id="home" class="header-title">LOUISE QUÉRU</p>
           </div>
         </div>
       </div>
+    </div>
 
-      <div class="container">
+    <div class="star-start"></div>
+      <div class="about">
+        <div class="container section">
+          <div class="row">
+            <div class="col-xs-12 col-md-6">
+              <p id="about" class="about-text about-text-1">
+                Et quia Montius inter dilancinantium manus spiritum efflaturus
+                Epigonum et Eusebium nec professionem nec dignitatem ostendens
+                aliquotiens increpabat, qui sint hi magna quaerebatur industria,
+                et nequid intepesceret, Epigonus e Lycia philosophus ducitur et
+                Eusebius ab Emissa Pittacas cognomento, concitatus orator, cum
+                quaestor non hos sed tribunos fabricarum insimulasset promittentes
+                armorum si novas res agitari conperissent. Oportunum est, ut
+                arbitror, explanare nunc causam, quae ad exitium praecipitem
+                Aginatium inpulit iam inde a priscis maioribus nobilem, ut locuta
+                est pertinacior fama. nec enim super hoc ulla documentorum rata
+                est fides.
+              </p>
+            </div>
+          </div>
+        </div>
+      <div class="star-end"></div>
+      <div class="container section">
         <div class="row">
           <div class="col-xs-12 offset-xs-0 col-md-6 offset-md-6">
             <p class="about-text about-text-2">
@@ -82,7 +67,12 @@
           </div>
         </div>
       </div>
-    </div>
+
+    <extends src="nav.html"></extends>
+
+    
+
+      
 
     <div class="container">
       <div class="row domain-1">
@@ -107,7 +97,14 @@
       </div>
     </div>
 
-    <a class="projects-gd" href="project-gd-1.html">Projet</a>
+   <div class="projects-gd">
+    <a class="projects-gd-img" href="project-gd-1.html">
+    </a>
+    <a class="projects-gd-img-1" href="project-gd-1.html">
+    </a>
+    <a class="projects-gd-img" href="project-gd-1.html">
+    </a>
+   </div>
 
     <div class="contact-stars">
       <div class="container">
@@ -140,7 +137,6 @@
       </div>
     </div>
 
-    <extends src="nav.html"></extends>
     <script src="js/main.js" type="module"></script>
   </body>
 </html>

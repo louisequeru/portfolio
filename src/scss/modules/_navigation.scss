@@ -1,11 +1,15 @@
 .navigation {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   color: var(--white);
   font-family: "Miller Banner";
   font-size: 18px;
   font-weight: 300;
+  position: fixed;
+  bottom: 50px;
+  left: 0;
+  right: 0;
 }
 
 .navigation-text {

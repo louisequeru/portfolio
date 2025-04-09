@@ -1,3 +1,13 @@
 .projects-gd {
-  color: var(--white);
+  display: flex;
+  flex-direction: row;
+}
+
+.projects-gd-img-1 {
+  background-image: url("../img/projects/rvb-version copie.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 700px;
+  max-height: 700px;
 }

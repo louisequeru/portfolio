@@ -1,11 +1,20 @@
 .star {
   width: 100vw;
   height: 100vh;
-  // background-image: url("../img/stars/star-big-red-header.png");
-  background-size: 100%;
+  background-image: url("../img/stars/star-big-red-header.png");
+  background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
   position: fixed;
   top: 0;
   left: 0;
   z-index: -1;
+}
+
+.section {
+  height: 100vh;
+  // background: linear-gradient(0deg, #ccf2ff, #45cfff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
