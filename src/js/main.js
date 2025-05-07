@@ -28,7 +28,7 @@ gsap.registerPlugin(ScrollTrigger);
 gsap.to(".star", {
   scrollTrigger: {
     trigger: ".star",
-    markers: true,
+    // markers: true,
     pin: ".star",
     start: "top",
     end: "bottom",

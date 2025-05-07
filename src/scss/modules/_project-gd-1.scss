@@ -15,7 +15,7 @@
 
 .project-gd-1-title {
   color: var(--orange);
-  font-family: "Miller Banner";
+  font-family: "miller-banner", serif;
   font-size: 96px;
   font-style: italic;
   font-weight: 300;
@@ -28,10 +28,21 @@
   margin-bottom: 172px;
 }
 
+.project-gd-1-image-1 {
+  margin-bottom: 15px;
+}
+
 .project-gd-1-image-2 {
   margin-top: -190px;
-  margin-bottom: 125px;
+  margin-bottom: 15px;
   box-shadow: -5px -5px 40px 0px var(--black);
+}
+
+.project-gd-1-image-date {
+  color: var(--white);
+  margin-bottom: 125px;
+  font-style: italic;
+  font-weight: 300;
 }
 
 .project-gd-1-image-3 {
@@ -81,6 +92,6 @@
 
 .project-gd-1-next-text {
   color: var(--orange);
-  font-family: "Miller Banner";
+  font-family: "miller-banner", serif;
   font-weight: 300;
 }
